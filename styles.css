@@ -1,0 +1,88 @@
+body {
+    font-family: "Inter", serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 1px 2px #eee;
+}
+
+.nav-bar-logo img {
+    width: 129px;
+    height: auto; /* maintains aspect ratio */
+    padding: 20px;
+}
+
+.nav-bar-links {
+    display: flex;
+    padding: 20px;
+    gap: 20px; /* space between nav items */
+    font-size: 0.9rem;
+}
+
+.nav-bar-links a {
+    text-decoration: none; /* remove deafult anchor tag underlines */
+    color: #666;
+}
+
+.landing-page-image {
+    display: flex;
+    justify-content: center;
+    margin: 74.64px 51.2px 60px 51.2px;
+}
+
+.landing-page-image img {
+    width: 798px;
+    height: auto; /* maintains aspect ratio */
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.heading h1 {
+    margin: 0; /* reset h1 margin*/
+    font-size: 28px;
+    font-weight: 500; /* Medium weight, not bold */
+    color: #424242;
+}
+
+.description p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #424242;
+    margin: 10px 0px 15px 0px;
+}
+
+.signup-button div {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 0px 0px;
+    padding: 10px 30px;
+}
+
+.signup-button-link:link,
+.signup-button-link:visited {
+    text-decoration: none;
+    margin: 25px;
+    padding: 10px 30px;
+    border: 0.8;
+    font-size: 1.2em;
+    border-radius: 3px;
+    background-color: #387ed1;
+    color: #fff;
+}
+
+.signup-button-link:hover,
+.signup-button-link:active {
+    background-color: #555;
+}
+
+footer {
+    display: flex;
+    font-size: 0.8rem;
+}
